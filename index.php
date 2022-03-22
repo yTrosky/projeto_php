@@ -46,10 +46,10 @@ echo"<h1>" . $temp -> getNome() ."<br>" . "</h1>";
 $temp -> setEndereco("ETEC ZONA LESTE") ;
 echo "<h2>" . $temp -> getEndereco()."<br>" . "</h2>";
 
-$temp -> setBairro("HEHEHEHA") ;
+$temp -> setBairro("Av. Aguia de Haia, 2223") ;
 echo "<h3>" .$temp -> getBairro()."<br>" . "</h3>";
 
-$temp -> setCep("18796513879561") ;
+$temp -> setCep("222.555") ;
 echo "<h4>". $temp -> getCep()."<br>" . "</h4>";
 
 ?>
